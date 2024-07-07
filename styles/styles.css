@@ -1,0 +1,165 @@
+header {
+  background-color: #ffffff;
+  padding: 5px 0;
+}
+
+/* TITLE LOGO */
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  padding: 0px 35px;
+  margin-top: 10px;
+}
+
+.nav-logo img {
+  margin-right: 5px;
+}
+
+.nav-logo > span {
+  font-size: 48px;
+  color: #424242;
+  font-weight: bold;
+}
+
+/* SUB-TITLE LOGO */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.nav-box {
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  font-size: 15px;
+}
+
+.nav-items > a {
+  color: #424242;
+  font-weight: bold;
+}
+
+/* PROMO-BOX */
+
+.bg-promo {
+  width: 100%;
+  margin-bottom: 70px;
+  background-image: url(../assets/images/main-pic.jpg);
+  height: 670px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-content {
+  text-align: center;
+  margin-top: 23%;
+}
+
+.promo-content h1 {
+  line-height: 50px;
+  font-size: 48px;
+}
+
+.promo-content > span {
+  font-size: 30px;
+  color: #fff;
+}
+
+.promo-box h1,
+a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.promo-box a {
+  text-align: center;
+  margin-top: 25px;
+  width: 300px;
+  padding: 12px 20px;
+  font-size: 23px;
+  border-radius: 5px;
+  background-color: #f8cd53;
+  text-transform: uppercase;
+}
+
+/* ABOUT BOX */
+
+.about {
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-item {
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.about-title h2,
+span {
+  color: #424242;
+  font-weight: bold;
+}
+
+.about-title h2 {
+  font-size: 36px;
+}
+
+.about-sub-title {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.about-item h2 {
+  margin: 20px 0 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #424242;
+}
+
+.about-item span {
+  font-size: 13px;
+  color: #5c5c5c;
+  font-weight: normal;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #515151;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+  color: #cecece;
+  margin: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+}
